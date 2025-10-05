@@ -5,5 +5,5 @@ let
     overlays = [];
   };
 in {
-  it2shell = pkgs.callPackage ./it2shell.nix {};
+  iterm2-shell-integration = pkgs.callPackage ./it2shell.nix {};
 }
